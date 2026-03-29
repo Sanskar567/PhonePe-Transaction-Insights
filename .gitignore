@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Project Specific
+pulse/
+db_summary.txt
+output.utf8.txt
+sample_*.txt
+inspect_output.txt
+
+# Internal Workspace Scripts (Optional to exclude)
+gen_part*.py
+nb_helpers.py
+assemble_notebook.py
+download_geojson.py
+inspect_json.py
+read_docx.py
+verify_db.py
