@@ -5,6 +5,8 @@ A comprehensive data engineering and analytics project to visualize and explore 
 ## 🌟 Project Overview
 This project performs an end-to-end analysis of the PhonePe Pulse dataset. It includes a robust ETL pipeline to extract data from multiple JSON structures, a structured SQLite database for high-performance querying, a master Exploratory Data Analysis (EDA) notebook, and an interactive Streamlit dashboard for real-time insights.
 
+<img width="1856" height="927" alt="image" src="https://github.com/user-attachments/assets/3c5ae3d5-b9b5-4ef2-b5ac-bf180d9a0167" />
+
 ### 🍱 Main Features
 - **ETL Pipeline**: Automated extraction and cleaning of 1.5 million+ records from the PhonePe Pulse repository.
 - **Master EDA**: 20+ comprehensive visualizations addressing 5 key business cases including transaction dynamics, device dominance, and insurance penetration.
