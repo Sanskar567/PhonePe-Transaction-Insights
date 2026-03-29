@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import json
+import os
 import db_utils
 
 # --- Page Configuration ---
@@ -25,7 +26,8 @@ st.markdown("""
 # --- Data Loading (Cached) ---
 @st.cache_data
 def load_geojson():
-    with open("india_states.json", "r") as f:
+    geojson_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "india_states.json")
+    with open(geojson_path, "r") as f:
         return json.load(f)
 
 geojson = load_geojson()

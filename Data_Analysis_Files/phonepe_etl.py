@@ -25,9 +25,15 @@ import pandas as pd
 # ============================================================
 # CONFIGURATION
 # ============================================================
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "pulse", "data")
-DB_PATH = os.path.join(BASE_DIR, "phonepe.db")
+# Path where this script is located (Data_Analysis_Files/)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Root directory of the project
+ROOT_DIR = os.path.dirname(CURRENT_DIR)
+
+# Path to the pulse repository (expected in project root)
+DATA_DIR = os.path.join(ROOT_DIR, "pulse", "data")
+# Path where the database will be created/updated
+DB_PATH = os.path.join(CURRENT_DIR, "phonepe.db")
 
 
 # ============================================================
